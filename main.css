@@ -84,10 +84,11 @@ button{
     background-color: #DD5555;
     outline: none;
     border:none;
-    padding: 10px;
+    padding: 15px 10px;
     border-radius: 5px;
     margin: 10px auto 0 auto;
     font-weight: bold;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
