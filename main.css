@@ -1,0 +1,151 @@
+/*icons font */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?vddut5');
+    src:  url('fonts/icomoon.eot?vddut5#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?vddut5') format('truetype'),
+      url('fonts/icomoon.woff?vddut5') format('woff'),
+      url('fonts/icomoon.svg?vddut5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-linkedin:before {
+    content: "\e900";
+  }
+  .icon-facebook:before {
+    content: "\e901";
+  }
+  .icon-twitter:before {
+    content: "\e902";
+  }
+/* **************************** */
+
+*{margin:0;padding: 0;}/*reset all margins ans paddings */
+
+
+body{
+    background:#ebebeb;
+    border: 1px solid;
+    font-family: Montserrat;
+}
+
+#container{
+    width: 40%;
+    display: block;
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+}
+
+header, nav, main{
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px 1px 1px #978382;
+    box-shadow: 2px 2px #CFCFCF;
+}
+
+
+header{padding: 10px;}
+
+header img{
+    display: block;
+    margin: 50px auto 10px auto;
+    border-radius: 100%;
+    border: 3px solid rgb(240, 232, 232);
+}
+
+header h1,header h2,header p{text-align: center;margin-bottom:10px;}
+
+h1{color: #DD5555; font: bold arial,sans-serif;}
+
+header{text-align: justify;}
+
+button{
+    display: block;
+    color: #fff;
+    background-color: #DD5555;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto 0 auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button:hover{cursor: pointer;}
+
+nav{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    text-align: center;
+    margin-right:50px;
+    color: #CCCCCC;
+}
+
+nav em{font-size: 40px;}
+
+nav spam{font-size: 10px;}
+
+nav a{text-decoration: none;}
+
+nav a:hover{text-decoration: none;}
+
+main{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+main h2{text-align: center;margin-bottom: 50px;}
+
+main h2, main h3,main p{color: #978382;}
+
+table{
+    display: block;
+    margin:10px auto 0 auto;
+}
+
+table td{ 
+    vertical-align:top;
+   padding-bottom: 30px; }
+
+table img{width: 150px;}
+
+table h3{
+    text-align: center;
+    vertical-align: text-top;
+}
+
+table p{
+    margin:10px 0 0 30px;
+    text-align: justify;
+font-size: 20px;}
+
+
+
